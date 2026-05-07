@@ -24,7 +24,7 @@ public String getRole (){
 	}
 	
 @Override
-public String toString(){
+public String toString(){ // return a readable string representation of an object, so its data can be printed clearly instead of showing the default memory reference.
     return super.toString()+" , Subject:"+subject +" , Salary:"+salary;	
 }	
 }	
